@@ -1,8 +1,7 @@
-📝 To-Do List App with Time & Alarm
+## 📝 To-Do List App with Time & Alarm
 A simple yet powerful to-do list application with task scheduling and alarm notifications. Built with [your tech stack, e.g., React + Node.js + MongoDB].
 
-
-✨ Features
+## ✨ Features
 ✔️ Add tasks with descriptions and deadlines.
 ⏰ Set alarms for important tasks (browser notifications or sound).
 📅 Time-based sorting (tasks due soon appear first).
@@ -10,7 +9,7 @@ A simple yet powerful to-do list application with task scheduling and alarm noti
 🗑️ Delete tasks permanently.
 🌙 Dark/Light mode (optional, if implemented).
 
-🚀 Quick Start
+## 🚀 Quick Start
 Prerequisites
 html,css and javascript for front end and python for backend
 
