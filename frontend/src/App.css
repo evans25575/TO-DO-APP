@@ -1,0 +1,92 @@
+/* Add these to your existing App.css */
+
+.time-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.time-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.time-icon {
+  color: #555;
+}
+
+.time-separator {
+  color: #777;
+}
+
+.time-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.alarm-settings {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.alarm-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.alarm-icon {
+  color: #ff9800;
+}
+
+.alarm-sound-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.todo-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todo-time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.todo-alarm {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8em;
+  color: #ff9800;
+}
+
+.alarm-label {
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .time-inputs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .alarm-settings {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
